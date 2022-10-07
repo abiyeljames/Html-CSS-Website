@@ -1,0 +1,214 @@
+html {
+    background-color: #1F2937;
+    color: white;
+    font-family: Roboto, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body {
+    margin: auto auto;
+    text-align: center;
+}
+/* header */
+nav {
+    display: flex;
+    width: 75%;
+    margin: 16px auto;
+    padding: auto auto;
+    justify-content: space-between;
+    align-content: space-between;
+}
+#logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    padding: 0 361px 0 0;
+    margin: 0 0 0 0;
+}
+a {
+    font-size: 16px;
+    font-weight: 500;
+}
+.menu {
+    font-size: 18px;
+    font-weight: lighter;
+    color: #E5E7EB;
+    text-decoration: none;
+    position: relative;
+}
+.btn {
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    color: white;
+    background-color: #3882F6;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    padding: 8px 0px;
+    width: 120px;
+    border-radius: 8px;
+    text-decoration: none;
+}
+.button-with-border {
+    border: 1px solid white;
+}
+.menu::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 0;
+    height: 2px;
+    background-color: #3882F6;
+    transition: width 0.6s cubic-bezier(0.25, 1, 0.5, 1);
+}
+main {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+/* first block */
+.header_text {
+    width: 75%;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: space-around;
+}
+#head_main_title {
+    width: 438px;
+    font-size: 48px;
+    line-height: 55px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    margin: 0 0 7px 0;
+    padding: 0 0 0 0;
+}
+.text_area {
+    text-align: left;
+    display: block;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: space-between;
+}
+#head-secondary-text {
+    width: 438px;
+    font-size: 18px;
+    font-weight: lighter;
+    margin: 0 0 8px 0;
+    padding: 0 0 0 0;
+}
+#place-holder-for-image {
+    width: 464px;
+    height: 230px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: 300;
+}
+/* second block */
+#white_background {
+    background-color: white;
+    margin-top: 330px;
+    width: 100%;
+    position: absolute;
+    display: block;
+}
+#information_text {
+    font-weight: bolder;
+    font-size: 36px;
+    color: #1F2937;
+    padding-top: 24px;
+}
+figure {
+    width: 110px;
+    margin: 0 0 0 0;
+}
+.place-holder-for-illustration {
+    height: 150px;
+    width: 150px;
+    background-color: #fff;
+    border-radius: 10px;
+    border: 2px solid #3882F6;
+}
+.picture-info {
+    color: gray;
+    font-size: 12px;
+    width: 150px;
+    height: auto;
+    margin-top: 8px;
+}
+.container {
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    padding-top: 24px;
+    padding-bottom: 80px;
+}
+/* third block */
+.gray-box {
+    background-color: #E5E7EB;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+article {
+    width: 46%;
+    color: black;
+    margin: auto auto;
+}
+#text-article {
+    text-align: left;
+    font-size: 28px;
+    font-style: italic;
+    font-weight: 300;
+    color: #1F2937;
+    padding: 70px 0 0 0;
+}
+#text-author {
+    text-align: right;
+    color: #1F2937;
+    margin-right: 29%;
+    padding-bottom: 70px;
+}
+/* fourth block */
+.call-to-action-box {
+    background-color: #3882F6;
+    border-radius: 10px;
+    width: 64%;
+    margin: 60px auto;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: space-around;
+}
+#text-line {
+    text-align: left;
+    display: block;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: space-between;
+}
+#call-to-action-title {
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0 0 0 0;
+    padding-top: 25px;
+}
+#call-to-action-text {
+    font-size: 12px;
+    font-weight: 200;
+    margin: 0 0 0 0;
+    padding-bottom: 25px;
+}
+/* footer */
+#copyright {
+    display: flex;
+    justify-content: center;
+    padding-top: 960px;
+    padding-bottom: 30px;
+}
