@@ -2,4 +2,4 @@
 
 ## Brainnest Assignment 2 (Main CSS Project):
 
-If you wish to check on this project, click the link below:
+You can take a look at this project in action clicking the link below:
