@@ -2,6 +2,6 @@
 
 ## Brainnest Assignment 2 (Main CSS Project):
 
-You can take a look at this project in action clicking the link below:
+You can take a look at this project in action by clicking the link below:
 
 https://abiyeljames.github.io/Html-CSS-Website/
